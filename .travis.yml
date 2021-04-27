@@ -35,3 +35,4 @@ deploy:
   on:
     # tags设置为true表示只有在有tag的情况下才部署
     tags: false
+    branch: master
