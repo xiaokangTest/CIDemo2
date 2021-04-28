@@ -35,7 +35,7 @@ deploy:
   # 发布时机
   on:
     # tags设置为true表示只有在有tag的情况下才部署
-    tags: true
+    tags: false
     all_branches: true
 after_deploy:
   - fir login d9a7aba03bd8015a95d9b3a66c9e43e6
